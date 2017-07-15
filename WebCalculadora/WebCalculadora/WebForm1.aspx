@@ -5,8 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link href="bin/css/bootstrap.css" rel="stylesheet" />
-
-
+    <link href="bin/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bin/css/bootstrap-theme.css" rel="stylesheet" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Primer Web Form</title>
 </head>
@@ -14,7 +14,23 @@
 
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="row">
+            <div class="col-md-4">
+
+
+            </div>
+            <div class="col-md-4">
+
+
+            </div>
+            <div class="col-md-4">
+
+
+            </div>
+
+
+
+
         </div>
     </form>
 </body>
